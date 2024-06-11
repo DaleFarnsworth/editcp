@@ -116,7 +116,7 @@ While building `editcp` from source on macOS can be challenging, it is possible 
 In the Linux VM, with xquartz running on macOS, execute
 
 ```
-/opt/bin/editcp
+$ /opt/bin/editcp
 ```
 
 Upon physically connecting the DMR radio via the USB cable, when prompted by your virtualization application, you should choose to connect the USB device to Linux.
