@@ -100,6 +100,27 @@ the Terminal so as to see stdout and stderr, run
 Instructions for downloading pre-built executables for Windows and Linux are
 available at https://www.farnsworth.org/dale/codeplug/editcp.
 
+## Using a Pre-built Linux Executable on macOS
+
+While building `editcp` from source on macOS can be challenging, it is possible to run a pre-built `editcp` Linux executable on macOS within a Linux virtual machine.
+
+### Prerequisites
+
+- VM running a recent version of Linux (Ubunutu 22.04 LTS 64-bit currently recommended)
+- xquartz X11 window manager for macOS
+- libqt5gui5 installed using your Linux VM's package manager
+- `editcp` Linux executable installed in, say, `/opt`
+
+### Running `editcp`
+
+In the Linux VM, with xquartz running on macOS, execute
+
+```
+/opt/bin/editcp
+```
+
+Upon physically connecting the DMR radio via the USB cable, when prompted by your virtualization application, you should choose to connect the USB device to Linux.
+
 ## Disclaimer
 While
 no problems have been observed in radios after loading codeplugs edited by
